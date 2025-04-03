@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Tarea 1</title>
+        <link rel="stylesheet" href="style_index.css">
+    </head>
+    <body> 
+        <div>
+            <h1> Bienvenido/a a su gestor de actividades </h1>
+            <h2> ¿Qué Desea Hacer?</h2>
+            <div class="navbar">
+                <button class="navbar-page" onclick="window.location.href='agregar_actividad.html'">Agregar Actividad</button>
+                <button class="navbar-page" onclick="window.location.href='listado_actividades.html'">Ver Listado de Actividades</button>
+                <button class="navbar-page" onclick="window.location.href='estadisticas.html'">Ver Estadísticas</button>
+            </div>
+            <div id="summary-activities"> 
+                <table>
+                    <caption>Últimas Actividades Agregadas</caption>
+                    <thead>
+                        <tr>
+                            <th>Inicio </th>
+                            <th>Termino</th>
+                            <th>Comuna</th>
+                            <th>Sector</th>
+                            <th>Tema</th>
+                            <th>Foto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2025-04-01 12:00</td>
+                            <td>2025-04-01 15:00</td>
+                            <td>Vitacura</td>
+                            <td>Cancha</td>
+                            <td>Fuchibol con Amigos</td>
+                            <td><img src="imgs/futbol.jpg" alt="Placeholder Image" class="img-320x240"></td>
+                        </tr>
+                        <tr>
+                            <td>2025-03-25 12:00</td>
+                            <td>2025-03-25 15:00</td>
+                            <td>Santiago</td>
+                            <td>Beauchef 851</td>
+                            <td>Estudio Desarrollo de Aplicaciones Web</td>
+                            <td><img src="imgs/estudio.jpg" alt="Placeholder Image" class="img-320x240"></td>
+                        </tr>
+                        <tr>
+                            <td>2025-03-20 08:00</td>
+                            <td>2025-03-20 10:00</td>
+                            <td>Santiago</td>
+                            <td>Parque Ohiggins</td>
+                            <td>Correr</td>
+                            <td><img src="imgs/correr.jpg" alt="Placeholder Image" class="img-320x240"></td>
+                        </tr>
+                        <tr>
+                            <td>2025-03-19 17:00</td>
+                            <td>2025-03-19 20:00</td>
+                            <td>Santiago</td>
+                            <td>Beauchef 850</td>
+                            <td>Taller de Guitarra</td>
+                            <td><img src="imgs/guitarra.jpg" alt="Placeholder Image" class="img-320x240"></td>
+                        </tr>
+                        <tr>
+                            <td>2025-03-01 18:00</td>
+                            <td>2025-03-02 02:00</td>
+                            <td>Providencia</td>
+                            <td>Casa de Pipe</td>
+                            <td>Cumpleaños de Pipe</td>
+                            <td><img src="imgs/cumpleanos.jpg" alt="Placeholder Image" class="img-320x240"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
