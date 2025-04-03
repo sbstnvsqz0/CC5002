@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Tarea 1 agregar_actividad</title>
+        <link rel="stylesheet" href="style_index.css">
+    </head>
+    <body>
+        <div class="formulario-actividad">
+            <form id="form-act" action="" method="post">
+            <h1>Agrega tu actividad</h1>
+            <h2>Especifique el lugar de la actividad</h2>    
+            <div>
+                <label for="region">Región*:</label>
+                <select id="region" required>
+                    <option value="" id="option-region" disabled selected>Seleccione una región</option>
+                </select> 
+            </div>
+            <div>
+                <label for="comuna">Comuna*:</label>
+                <select id="comuna" required>
+                    <option value="" disabled selected>Seleccione una comuna</option>
+                </select>
+            </div>
+            <div>
+                <label for="sector">Sector:</label>
+                <input id="sector" name="sector" maxlength="100">
+            </div>
+            <h2>¿Quién organiza?</h2>   
+            </form>
+
+        </div>
+        <script lang="javascript" src="agregar_actividad.js"></script>
+    </body>
+</html>    
